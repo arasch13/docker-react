@@ -15,7 +15,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "docker-start": "docker compose -f docker-compose.dev.yml up",
+    "docker-build": "docker build -t arasch13/frontend -f Dockerfile.prod .",
+    "docker-test": "docker compose -f docker-compose.dev.test.yml up"
   },
   "eslintConfig": {
     "extends": [

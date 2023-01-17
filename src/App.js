@@ -7,18 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hi there! This is Araschs Test FE app!</p>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <p>I was changed on the feature branch!</p>
+        <p>Run 'docker compose -f docker-compose.dev.yml up --build' for development.</p>
       </header>
     </div>
   );
